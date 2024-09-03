@@ -1,0 +1,15 @@
+.div {
+    width: 300px;        
+    height: 150px;         
+    padding: 20px;         
+    border: 5px solid #9ccf9f; 
+    color:#fefaff;
+    margin: 20px;          
+    box-sizing: border-box; 
+    background-color: #d43a3a; 
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    color: #cf1983;
+}

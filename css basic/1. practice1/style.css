@@ -1,0 +1,91 @@
+/* External CSS */
+
+/* 
+h2{
+    background-color: skyblue;
+    color: #fc2b8d;
+ 
+} */
+
+
+
+p{
+    /*   Contain in Grouping selector
+    color:red;
+    background-color: aqua;
+     */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+
+/* CSS Selector(s) */
+
+/* 
+
+Ways:
+
+1.By TagName (eg: h1,h2,.., p, span,...)
+2. By ID  (denoted by : #Id_Name---> Always unique)
+3. By ClassName  (denoted by : #ClassName ---> Can use multiple time for same classname)
+
+
+
+
+syntax:
+selector{
+    property1:value1;
+    property2:value2;
+    ...
+    ...
+    propertyN:valueN;
+}
+ */
+
+ #heading{
+    background-color:rgba(10,200,100,0.3);
+    color: #fc2b8d;
+
+}
+
+
+.myClass{
+    color: white;
+    background-color: rgb(39, 38, 38);
+    font-family: serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 2px;
+    /* border: 2px solid tomato; */
+    border: 2px dashed tomato;
+}
+
+/* Other CSS Selectors */
+/* Universal */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+/* Mixed (Grouping) Selectors */
+
+p,h3{
+    color:red;
+    background-color: hsl(0,25%,55%);
+}
+
+
+/* CSS Colors:::
+1. Color name (color:red;)
+2. rgb(red,green,blue) (color: rgb(10,20,30);)
+3. rgba(red,green,blue,alpha) (color: rgba(10,200,100,0.3))   //By providing opacity
+4. hsl (hue, saturation,lightness) (color: hsl(0, 50%, 50%);
+5. Hexadeximal (0-9, a-f) (color : 103bfc;)
+
+
+--->  color  Picker
+*/
+

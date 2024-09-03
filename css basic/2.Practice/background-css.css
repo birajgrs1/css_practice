@@ -1,0 +1,85 @@
+/* 
+body{
+    
+    background-color:yellow ; */
+/* background-image: url('download.jfif'); */
+/* background-repeat: no-repeat; */
+/* background-image: url('image.webp');
+  
+}
+
+h1{
+    background-color: aqua;
+    color: brown;
+}
+
+a{
+    background-color: blanchedalmond;
+    color:black;
+} 
+
+button
+{
+   margin:20px;
+   padding:6px;
+   color:#fff;
+   background-color: green;
+   cursor: pointer;
+   border: 1px solid #000;
+   border-radius: 10%;
+   display: flex;
+   align-items: center;
+  
+}
+button:hover{
+    background-color: blueviolet;
+   
+} */
+/*
+.container {
+  background-color: royalblue;
+}
+
+h1 {
+  background-color: aqua;
+}
+
+button {
+  margin: 20px;
+  padding: 6px;
+  color: #fff;
+  background-color: green;
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+}
+button:hover {
+  background-color: blueviolet;
+}
+
+/* For demo container  */
+/*  
+.demo {
+   background-color: rebeccapurple; 
+  height: 450px;
+  width: 350px;
+  background-image: url("download.jfif");
+   background-repeat: no-repeat; 
+    background-repeat: repeat-x; 
+    background-repeat: repeat-y; 
+   background-size: cover;
+   width: 550px; 
+}
+*/
+
+body{
+    background-image: url('download.jfif');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-attachment: scroll;     # By-defailt */
+    background-attachment: fixed;
+    /* background-position: right; */
+    background-position: top;
+}

@@ -1,0 +1,61 @@
+/*
+Border-style:- dotted, dashed,solid,double,grove,ridge,inset,outset,none,hidden
+border-width
+border-color
+border-sides
+border-shorthand
+border-radius
+*/
+/*
+if use all styles at the same time:
+4---> top,right,bottom,left
+3---> top,right-left,bottom
+2---> top-bottom, right-left
+1---> top-right-bottom-left
+
+*/
+
+
+h1{
+   
+    /* border-style: dashed; */
+/*     
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: double; */
+    border-bottom:5px dashed royalblue;
+
+    /* border-width: 10px; */
+    /* border-style: double; */
+    /* border-color: blueviolet; */
+    /* 
+    border-style: 2px solid tomato;  or
+      border-style: 2px solid tomato;
+     */
+   
+
+}
+
+p{
+    /* border-style: dotted solid double; */
+    background-color: greenyellow;
+    color: aliceblue;
+    width: 600px;
+    border: 5px solid hotpink;
+    /* margin-left: 100px;
+    margin-top: 10px; */
+    /* margin:50px 30px 20px 40px; */
+    padding: 10px 8px 5px 8px;
+}
+
+.container{
+    height: 250px;
+    width: 330px;
+    background-color: tomato;
+    border-style: dashed;
+    border-radius: 50%;
+    border-color:rgb(35, 17, 112);
+    border-width:5px;
+
+
+}

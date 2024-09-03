@@ -1,0 +1,50 @@
+/* 
+body{
+    background-color: rgb(209, 51, 230);
+}
+
+@media screen and (min-width: 750px) and (max-width: 1150px){
+    body{
+        background-color: rgb(240, 10, 10);
+    }
+    h1{
+        color: rgb(33, 33,221);
+        background-color: rgb(97, 196, 196);
+    }
+    
+}
+    
+*/
+
+/* Working for nav-bar */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav-bar{
+    overflow: hidden;
+    background-color: rgb(39, 223, 153);
+
+}
+
+.nav-bar a{
+    float: left;
+    display: block;
+    color:rgb(252, 251, 251);
+    text-align: center;
+    padding: 15px;
+   text-decoration: none;
+}
+.nav-bar a:hover{
+    background-color: rgb(152, 58, 240);
+    transition: 0.8s;
+}
+
+@media screen and (max-width: 600px){
+    .nav-bar a{
+        float: none;
+        width: 100%;
+    }
+}
